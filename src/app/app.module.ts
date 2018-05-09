@@ -4,14 +4,14 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
 
-
+const APP_ID = 'mig-mig-ssr';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: APP_ID }),
     MDBBootstrapModule.forRoot()
   ],
   providers: [],

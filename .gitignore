@@ -5,9 +5,12 @@
 /dist-server
 /tmp
 /out-tsc
+/functions/dist/
+/functions/dist-ssr/
 
 # dependencies
 /node_modules
+/functions/node_modules/
 
 # IDEs and editors
 /.idea
@@ -19,11 +22,7 @@
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/
 
 # misc
 /.sass-cache
