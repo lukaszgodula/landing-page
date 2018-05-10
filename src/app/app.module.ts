@@ -1,5 +1,6 @@
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
@@ -24,7 +25,8 @@ const APP_ID = 'mig-mig-ssr';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: APP_ID }),
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    ScrollToModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],

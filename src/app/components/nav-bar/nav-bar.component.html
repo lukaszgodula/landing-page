@@ -1,25 +1,23 @@
-  <mdb-navbar SideClass="navbar navbar-expand-md navbar-dark indigo">
+  <mdb-navbar id="top" SideClass="navbar navbar-expand-md navbar-dark indigo sticky-top">
     <logo>
       <a class="navbar-brand" href="#">Mig mig!</a>
     </logo>
     <links>
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link waves-light" mdbWavesEffect>Home
-            <span class="sr-only">(current)</span>
-          </a>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#top'">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect>O nas</a>
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#about-us'">O nas</a>
         </li>
         <li class="nav-item">
           <a class="nav-link waves-light" mdbWavesEffect>Usługi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect>Zespół</a>
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#team'">Zespół</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect>Kontakt</a>
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#contact'">Kontakt</a>
         </li>
       </ul>
     </links>
