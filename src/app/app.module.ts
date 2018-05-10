@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { TeamComponent } from './components/team/team.component';
 
 const APP_ID = 'mig-mig-ssr';
 
@@ -14,7 +15,8 @@ const APP_ID = 'mig-mig-ssr';
     AppComponent,
     NavBarComponent,
     CarouselComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: APP_ID }),
