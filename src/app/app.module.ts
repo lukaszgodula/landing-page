@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 const APP_ID = 'mig-mig-ssr';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: APP_ID }),
