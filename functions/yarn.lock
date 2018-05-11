@@ -208,6 +208,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@nicky-lenaers/ngx-scroll-to@^0.6.0":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@nicky-lenaers/ngx-scroll-to/-/ngx-scroll-to-0.6.1.tgz#bf5b751d0d7e385a11be81c52ce28f0ae4c7ef2e"
+
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
