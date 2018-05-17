@@ -1,0 +1,30 @@
+<img class="img-fluid mx-auto my-2 d-block rounded mig-modals" src="assets/photos/offer/min/usluga_4_min.jpg" (click)="balloons.show()"
+/>
+
+<div mdbModal #balloons="mdb-modal" class="balloons-modal modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-notify modal-info modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="heading lead">Balony</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="balloons.hide()">
+          <span aria-hidden="true" class="white-text">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center">
+          <img class="img-fluid my-2" src="assets/photos/offer/usluga_4.jpg" alt="">
+        </div>
+        <div class="text-left">
+          <p>Oferujemy usługi skręcania fantazyjnych balonów przez ucharakteryzowane postacie z bajek. Balony zaplatać może
+            Jack Sparrow, Kapitan Hak, Pacahontas, Piratka, Muszkieter. Możliwe do zrobienia jest conajmniej kilkanaście
+            bardziej lub mniej złożonych form zwierzątek, przedmiotów. Korzystamy z wysokogatunkowych balonów włoskiej produkcji.
+            Zaplataniu balonów może towarzyszyć odpowiednia muzyka odtwarzana z przenośnego głośnika.</p>
+        </div>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <a type="button" class="btn btn-outline-primary" data-dismiss="modal" (click)="balloons.hide()" mdbWavesEffect>Zamknij</a>
+      </div>
+    </div>
+  </div>
+</div>

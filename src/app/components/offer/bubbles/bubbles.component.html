@@ -1,0 +1,29 @@
+<img class="img-fluid mx-auto my-2 d-block rounded mig-modals" src="assets/photos/offer/min/usluga_2_min.jpg" (click)="bubbles.show()"/>
+
+<div mdbModal #bubbles="mdb-modal" class="bubbles-modal modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-notify modal-info modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="heading lead">Bańki mydlane</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="bubbles.hide()">
+          <span aria-hidden="true" class="white-text">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center">
+          <img class="img-fluid my-2" src="assets/photos/offer/usluga_2.jpg" alt="">
+          <p>Bańki mydlane to jedna z największych atrakcji dla dzieci. Puszczamy ogromne bańki i wielkie ilości małych. Zamykanie
+            dzieci w bańkach, wpuszczanie dymu do środka, robienie bańki w bańce i baniek świecących - nie są nam obce. Mamy
+            wiele zestawów do robienia baniek, dlatego uwielbiamy puszczać je razem z dziećmi. Używamy ekologicznych płynów
+            własnej produkcji. Aby zwiększyć komfort i bezpieczeństwo pracy używamy specjalnej trawiastej maty oraz ostrzegawczych
+            pachołków. Posiadamy również wytwornicę do baniek. Puszczaniu baniek sprzyja odpowiednio dobrana muzyka odtwarzana
+            z przenośnego głośnika.</p>
+        </div>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <a type="button" class="btn btn-outline-primary" data-dismiss="modal" (click)="bubbles.hide()" mdbWavesEffect>Zamknij</a>
+      </div>
+    </div>
+  </div>
+</div>

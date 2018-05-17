@@ -1,0 +1,38 @@
+<img class="img-fluid mx-auto my-2 d-block rounded mig-modals" src="assets/photos/offer/min/usluga_1_min.jpg" (click)="levitation.show()" />
+
+<div mdbModal #levitation="mdb-modal" class="levitation-modal modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-notify modal-info modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="heading lead">Lewitacja</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="levitation.hide()">
+          <span aria-hidden="true" class="white-text">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center">
+          <img class="img-fluid my-2" src="assets/photos/offer/usluga_1.jpg" alt="">
+        </div>
+        <div class="text-left">
+          <p>Lewitację można wykorzystać jako niekonwencjonalną formę promocji!</p>
+          <p> Największym atutem lewitacji jest to, że nikt nie przechodzi obok niej obojętny! Przyciąga wzrok i zwraca uwagę
+            każdego przynajmniej na kilka chwil, a niejednokrotnie zatrzymuje na bardzo długi czas!</p>
+          <p>
+            Lewitacja sprawia, że przechodnie, czyli potencjalni konsumenci wyciągają telefony komórkowe i na masową skalę robią zdjęcia.
+            W ciągu trzech godzin można usłyszeń charakterystyczny pstryk nawet tysiąc razy! Co więcej, ludzie wykonane zdjęcia
+            często udostępniają w sieci, więc może zafunkcjonować marketing wirusowy.
+          </p>
+          <p>
+            Lewitacja to pasywna forma promocji. Nie jest nachalna, nie krzyczy, nie wywiera na konsumencie żadnej presji, nie sprawia,
+            że czuje się on nieswojo. Za to subtelnie i bardzo skutecznie kusi konsumenta, aby ten podszedł bliżej, został
+            dłużej. Spraw, aby to klienci przyszli do Ciebie!
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <a type="button" class="btn btn-outline-primary" data-dismiss="modal" (click)="levitation.hide()" mdbWavesEffect>Zamknij</a>
+      </div>
+    </div>
+  </div>
+</div>

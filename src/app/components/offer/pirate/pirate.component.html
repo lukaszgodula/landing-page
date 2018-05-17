@@ -1,0 +1,30 @@
+<img class="img-fluid mx-auto my-2 d-block rounded mig-modals" src="assets/photos/offer/min/usluga_6_min.jpg" (click)="pirate.show()"
+/>
+
+<div mdbModal #pirate="mdb-modal" class="pirate-modal modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-notify modal-info modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="heading lead">Jack Sparrow</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="pirate.hide()">
+          <span aria-hidden="true" class="white-text">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center">
+          <img class="img-fluid my-2" src="assets/photos/offer/usluga_6.jpg" alt="">
+        </div>
+        <div class="text-left">
+          <p>Z powodzeniem wcielamy się w postacie z bajek - animujemy zabawę z dziećmi, lubimy się fotografować, tańczyć, przybijać
+            piątki, przytulać. W ramach akcji promocyjnych możemy również rozdawać ulotki i robić wiele innych rzeczy. Do
+            wyboru cztery Minionki, Olaf z Krainy Lodu, Sully z Potworów i spółka, Żółw Ninja, Kubuś Puchatek, Myszka Minnie,
+            Sponge Bob (Kanciastogłowy). Opcjonalnie przenośny głośnik z muzyką.</p>
+        </div>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <a type="button" class="btn btn-outline-primary" data-dismiss="modal" (click)="pirate.hide()" mdbWavesEffect>Zamknij</a>
+      </div>
+    </div>
+  </div>
+</div>
